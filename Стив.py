@@ -5,7 +5,7 @@ pos = mc.player.getPos()
 x, y, z = pos.x, pos.y, pos.z
 mc.setBlocks(x, y, z, x + 7, y + 7, z, 159)# квадрат 8х8
 #волосы
-mc.setBlocks(x, y + 6, z, x + 7, y + 7, z, 17)# квадрат 8х8
+mc.setBlocks(x, y + 6, z, x + 7, y + 7, z, 17)
 mc.setBlock(x, y + 5, z, 17)
 mc.setBlock(x + 7, y + 5, z, 17)
 #борода
